@@ -1,0 +1,118 @@
+The Maxscript Extentions for 3DS Max W3D Export Plugin adds the following Maxscript functions:
+wwSetType mesh type - set the type of a mesh
+wwSetDazzle mesh name - set the name of a dazzle mesh
+wwSetFlags mesh flags - take the mesh flags from the mesh header and apply them to the mesh object
+wwSetSorting mesh value - set the sorting value for a mesh
+wwSetHide mesh true/false - set the hide flag for a mesh
+wwSet2Side mesh true/false - set the 2side flag for a mesh
+wwSetShadow mesh true/false - set the shadow flag for a mesh
+wwSetVAlpha mesh true/false - set the valpha flag for a mesh
+wwSetZNormal mesh true/false - set the znormal flag for a mesh
+wwSetShatter mesh true/false - set the shatter flag for a mesh
+wwSetNPatch mesh true/false - set the npatch flag for a mesh
+wwSetKeepNormal mesh true/false - set the keep normal flag for a mesh
+wwSetCollidePhysical mesh true/false - set the collide physical flag for a mesh
+wwSetCollideProjectile mesh true/false - set the collide projectile flag for a mesh
+wwSetCollideVis mesh true/false - set the collide vis flag for a mesh
+wwSetCollideCamera mesh true/false - set the collide camera flag for a mesh
+wwSetCollideVehicle mesh true/false - set the collide vehicle flag for a mesh
+wwSetSortLevel material value - set the sort level for a w3d material
+wwSetSurfaceType material value - set the surface type for a w3d material
+wwSetPassCount material value - set the pass count for a w3d material
+wwSetWriteZBuffer material pass true/false - set the writezbuffer flag for a w3d material
+wwSetDestBlend material pass value - set the destblend for a w3d material
+wwSetSrcBlend material pass value - set the srcblend for a w3d material
+wwSetPriGradient material pass value - set the prigradient for a w3d material
+wwSetDepthCompare material pass value - set the depthcompare for a w3d material
+wwSetDetailColor material pass value - set the detailcolor for a w3d material
+wwSetDetailAlpha material pass value - set the detailalpha for a w3d material
+wwSetSecGradient material pass value - set the secgradient for a w3d material
+wwSetOpacity material pass value - set the opacity for a w3d material
+wwSetShininess material pass value - set the shininess for a w3d material
+wwSetTranslucency material pass value - set the translucency for a w3d material
+wwSetUV material pass stage value - set the UV map channel for a w3d material
+wwSetAmbient material pass value - set the ambient for a w3d material
+wwSetDiffuse material pass value - set the diffuse for a w3d material
+wwSetSpecular material pass value - set the specular for a w3d material
+wwSetEmissive material pass value - set the emissive for a w3d material
+wwSetSpecularToDiffuse material pass true/false - set the speculartodiffuse flag for a w3d material
+wwSetMapType material pass stage value - set the maptype for a w3d material
+wwSetFrames material pass stage value - set the frames for a w3d material
+wwSetFrameRate material pass stage value - set the framerate for a w3d material
+wwSetPublish material pass stage true/false - set the publish flag for a w3d material
+wwSetClampU material pass stage true/false - set the clampu flag for a w3d material
+wwSetClampV material pass stage true/false - set the clampv flag for a w3d material
+wwSetNoLod material pass stage true/false - set the nolod flag for a w3d material
+wwSetAlphaBitmap material pass stage true/false - set the alphabitmap flag for a w3d material
+wwSetAnimType material pass stage value - set the anim type for a w3d material
+wwSetPassHint material pass stage value - set the pass hint for a w3d material
+wwSetMapperArgs material pass stage args - set the mapper args for a w3d material
+wwSetMatFlags material pass flags - take the material flags from the material chunk and apply them to the w3d material
+wwSetTexFlags material pass flags - take the material flags from the texture chunk and apply them to the w3d material
+wwGetSortLevel material - get the sort level for a w3d material
+wwGetSurfaceType material - get the surface type for a w3d material
+wwGetPassCount material - get the pass count for a w3d material
+wwGetWriteZBuffer material pass - get the writezbuffer flag for a w3d material (returns true/false)
+wwGetUV material pass stage - get the UV map channel for a w3d material
+wwGetStageFlag material pass stage - get the enabled/disabled state for a texture stage for a w3d material (returns true/false)
+wwGetMapperArgs material pass stage - get the mapper args for a w3d material
+wwGetAmbient material pass - get the ambient for a w3d material
+wwGetDiffuse material pass - get the diffuse for a w3d material
+wwGetSpecular material pass - get the specular for a w3d material
+wwGetEmissive material pass - get the emissive for a w3d material
+wwGetShininess material pass - get the shininess for a w3d material
+wwGetOpacity material pass - get the opacity for a w3d material
+wwGetTranslucency material pass - get the translucency for a w3d material
+wwGetDepthCompare material pass - get the depth compare for a w3d material
+wwGetDestBlend material pass - get the dest blend for a w3d material
+wwGetPriGradient material pass - get the pri gradient for a w3d material
+wwGetSecGradient material pass - get the sec gradient for a w3d material
+wwGetSrcBlend material pass - get the src blend for a w3d material
+wwGetDetailColor material pass - get the detail color for a w3d material
+wwGetDetailAlpha material pass - get the detail alpha for a w3d material
+wwGetMatFlags material pass - get the material flags for a w3d material
+wwGetTexFlags material pass stage - get the texture flags for a w3d material
+wwGetAnimType material pass stage - get the anim type for a w3d material
+wwGetFrames material pass stage - get the frames for a w3d material
+wwGetFrameRate material pass stage - get the frame rate for a w3d material
+wwSetBoneCount count - set the bone count when loading the heirarchy (for animation and skinning purposes)
+wwSetBone translation rotation bone parent - set data for a bone when loading the heirarchy (for animation and skinning purposes)
+wwTransformVertex vertex bone - transform a vertex as required when loading skinned meshes
+wwTransformNormals normal bone - transform a normal as required when loading skinned meshes
+
+The W3D Export Plugin for 3DS Max adds the following Maxscript functions (functions labeled unknown have not been figured out yet)
+wwAddBone bone mesh - add a bone to the wwskin of a skinned mesh
+wwRemoveBone bone mesh - remove a bone from the wwskin of a skinned mesh
+wwGetWSM
+wwGetExportGeoFlag mesh - get the export geometry flag for a mesh
+wwSetExportGeoFlag mesh true/false - set the export geometry flag for a mesh
+wwGetExportBoneFlag mesh - get the export bone flag for a mesh
+wwSetExportBoneFlag mesh true/false - set the export bone flag for a mesh
+wwGetShadowFlag mesh - get the shadow flag for a mesh 
+wwSetShadowFlag mesh true/false - set the shadow flag for a mesh 
+wwGetTexture material index - get a texture from a w3d material
+wwSetTexture material texturefilepath index - set a texture on a w3d material
+wwSetStageFlag material pass stage true/false - enable/disable a texture stage for a w3d material
+wwSetDisplayFlag material pass stage true/false - set the display flag for a w3d material
+wwSetAlphaTestFlag material pass true/false - set the alpha test flag for a w3d material
+wwGetAlphaTestFlag material pass - get the alpha test flag for a w3d material
+wwCopyAppData - unknown
+wwSetOriginAppData - unknown
+wwGetHierarchyFile get the hierarchy file used for the scene
+wwGetBoneName mesh vertex bonenumber - get the name of the bone a vertex of a skinned mesh is linked to
+wwGetBoneNames mesh boneindex - get the names of the bones a skinned mesh is linked to
+wwGetBoneWeight mesh vertex bonenumber - get the weight of the bone a vertex of a skinned mesh is linked to
+wwGetBoneWeights mesh boneindex - get the weights of the bones a skinned mesh is linked to
+wwSetBoneWeight mesh vertex bonenumber bonenode weight - set the weight of a bone on a vertex of a skinned mesh
+wwGetBoneList mesh - get a list of the bones on a skinned mesh
+wwExportTreeSettings - unknown
+wwSceneSetup - unknown
+wwFindSkinNode - unknown
+wwCopySkinInfo - unknown
+wwDuplicateSkinWSM - unknown
+wwRunShaderCompiler - doesnt work (we dont have the ShaderAssetBuilder.exe it references)
+wwGetAbsolutePath - unknown
+wwInputBox - unknown
+wwIsExportGeometry node - is this node export geometry
+wwIsExportTransform node - is this node export transform
+wwIsExportMesh node - is this node export mesh

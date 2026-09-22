@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "w3dview", "w3dview.vcproj", "{341E907C-E18E-492F-B2B2-71F4A24C2A14}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{341E907C-E18E-492F-B2B2-71F4A24C2A14}.Debug.ActiveCfg = Debug|Win32
+		{341E907C-E18E-492F-B2B2-71F4A24C2A14}.Debug.Build.0 = Debug|Win32
+		{341E907C-E18E-492F-B2B2-71F4A24C2A14}.Release.ActiveCfg = Release|Win32
+		{341E907C-E18E-492F-B2B2-71F4A24C2A14}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

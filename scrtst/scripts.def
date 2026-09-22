@@ -1,0 +1,10 @@
+LIBRARY "scripts.dll"
+EXPORTS
+Create_Script
+Destroy_Script
+Get_Script_Count
+Get_Script_Name
+Get_Script_Param_Description
+Set_Request_Destroy_Func
+Set_Script_Commands
+_DllMain@12
